@@ -12,7 +12,7 @@
   box-shadow: 4px 4px 6px rgba(0,0,0,0.05);
   border-radius: 5px;
   list-style-type: none;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .trip-list .filters {
   display: flex;
@@ -23,4 +23,9 @@
   font-size: 16px;
   flex-grow: 1;
   background-color: rgb(248, 99, 13);
+  border-radius: 10px;
+}
+
+.trip-list button:hover {
+  background-color: rgb(240, 224, 215);
 }
